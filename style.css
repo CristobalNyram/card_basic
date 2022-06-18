@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300&family=Solway&family=Ubuntu:wght@300&display=swap');
+body
+{
+    margin: 0;
+    background-image: radial-gradient(circle, #f1faff, #edf9fc, #eaf7f9, #e8f6f5, #e6f4f1);
+
+}
+section
+{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+
+}
+section .card
+{    
+    margin-top:2rem;
+    width: 180px;
+    height: auto;
+
+    border-radius: 2.5%;
+    background-image: linear-gradient(to top, #001854, #001a5b, #001c61, #001e68, #00206f);            
+    overflow: hidden;
+}
+section p
+{
+    text-align: center;
+    font-family: 'Rubik', sans-serif;
+    font-size: .8rem;
+    font-weight:bold;
+    font-family: ;
+    color:#96e0ff;
+}
+
+.card img
+{
+    width: 100%;
+    height: auto;
+
+}
+.card .footer_card
+{
+    display: flex;
+    justify-content:space-between ; 
+    background-image: linear-gradient(to top, #a3ebfe, #9fe8fe, #9ce6ff, #99e3ff, #96e0ff);}
+.card .details 
+{
+    text-align: center;
+
+    font-family: 'Solway', serif;
+    font-size: .5rem;
+    color: azure;
+
+    margin-bottom: 2rem;
+}
+.footer_item
+{
+    text-align: center;
+    width: 100%;
+}
+.footer_item:hover
+{
+    background-image: radial-gradient(circle, #1282d0, #0e7bc8, #0974c0, #046eb9, #0067b1);
+}
+.flag
+{
+    width: 3.5rem;
+    height: 3rem;
+
+    position: relative;
+    top: 3.8rem;
+    left: calc(56.5%);
+    
+    border-radius: 50%;
+    z-index: 2;
+}
+@media screen and  (min-width:1200px)
+{
+    .flag
+    {
+      left:calc(55%);
+    }
+}
+
+
+@media screen and  (max-width:420px)
+{
+    .flag
+    {
+      left:calc(65%);
+    }
+}
